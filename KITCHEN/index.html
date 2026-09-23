@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priti's Home Kitchen</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background:#fff8f3;
+    color:#222;
+}
+header{
+    background:linear-gradient(135deg,#ff6b00,#ff914d);
+    color:#fff;
+    text-align:center;
+    padding:45px 20px 60px;
+    border-radius:0 0 35px 35px;
+}
+header h1{
+    font-size:40px;
+}
+header p{
+    margin-top:8px;
+}
+
+.contact{
+    width:92%;
+    max-width:1100px;
+    margin:-28px auto 30px;
+    background:#fff;
+    border-radius:20px;
+    padding:22px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+.box{
+    display:flex;
+    gap:14px;
+}
+.icon{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#fff2e8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+}
+small{
+    color:#888;
+    letter-spacing:1px;
+}
+.box h3{
+    margin:3px 0;
+    color:#e65100;
+}
+
+.title{
+    text-align:center;
+    color:#d84315;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.menu{
+    width:92%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:22px;
+    padding-bottom:40px;
+}
+.card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+    transition:.3s;
+}
+.card:hover{
+    transform:translateY(-6px);
+}
+.img{
+    height:220px;
+    background:#f7f7f7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+}
+.img img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+.content{
+    padding:15px;
+}
+.content h3{
+    margin-bottom:6px;
+}
+.content p{
+    color:#666;
+    font-size:13px;
+    min-height:38px;
+}
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+}
+.tag{
+    background:#ffe6d5;
+    color:#ff6b00;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:11px;
+    font-weight:600;
+}
+.price{
+    font-size:25px;
+    font-weight:700;
+    color:#e65100;
+}
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:18px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🍽 Priti's Home Kitchen</h1>
+<p>Fresh • Homemade • Delicious</p>
+</header>
+
+<div class="contact">
+
+<div class="box">
+<div class="icon">📞</div>
+<div>
+<small>PHONE NUMBER</small>
+<h3>+91 9125548601</h3>
+<p>Available for Orders</p>
+</div>
+</div>
+
+<div class="box">
+<div class="icon">📍</div>
+<div>
+<small>ADDRESS</small>
+<h3>Rajendra Nagar East</h3>
+<p>745 A, Behind Soumya Hospital,<br>Gorakhnath, Gorakhpur</p>
+</div>
+</div>
+
+</div>
+
+<h2 class="title">Our Special Menu</h2>
+
+<div class="menu">
+
+<div class="card">
+<div class="img"><img src="8elerA72GhGX4dQQTiS5PCctkLPql2K3IbxB0KwsJ_0lPFtm1HDQHXpOygdvH1oXOxv002QyV2Zv_4EumIayv7SrwJFjM7lKkZ5brnYcdUwlNFHPit38aT6vcpdJChNteyBIrZ68xmF1CZ5XXCdeCTjrJxx1tVrP5uXnyhcTeA2TZlMFOAPb1mwiBCEWaEfU.jpg"></div>
+<div class="content">
+<h3>Veg Biryani</h3>
+<p>Aromatic Veg Biryani served with raita.</p>
+<div class="bottom"><span class="tag">Best Seller</span><span class="price">₹178</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="images.jpg"></div>
+<div class="content">
+<h3>Paneer Thali</h3>
+<p>4 Roti • Rice • Paneer • Dal Fry • Salad • Sweet</p>
+<div class="bottom"><span class="tag">Home Made</span><span class="price">₹169</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="_I9pdA6dAaUtmovI1NKEzKoz2I2tVNI8JnMDSeT5KQPVZ_AGwwwtZPfaPmN7CvbsWCgPEI6uhKzPCZRvKE9eDzNSEoCu2FNmeoYmuq0HuIbwDVVnlwzQXactrMvsDucBTPCdpsmkQYQnFlXwJ04CixzwwI8wX_vUzip6GuHhRc4mC6QYeAFyUoUOsXj4OibF.jpg"></div>
+<div class="content">
+<h3>Veg Plain Thali</h3>
+<p>4 Roti • Rice • Dal Fry • Dry Sabji • Rajma/Chole</p>
+<div class="bottom"><span class="tag">Healthy</span><span class="price">₹159</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="3eXWcvDwSATx6EWIh5hP_1v24eW_XaZ1c32uOYUjOUsUOkG6AaezZAp0vi4cng6Hzg_Tq2SazrDc7OiYgxMVZVN40N_1dFfBpu7-F_yV7etTfWWuARYCuOBscDENzJzlRpmpLe1YdtTj4fUiKsyNbJ3o49Py-1G86z0HeYTPQulYLe7Kqb3IbcwJef_IWyKX.jpg"></div>
+<div class="content">
+<h3>Student Veg Paneer Thali</h3>
+<p>4 Roti • Paneer Sabji • Rice • Sukhi Sabji • Achar</p>
+<div class="bottom"><span class="tag">Student</span><span class="price">₹129</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="BTzQJ1s3rZJ5lvezlKeOVcCz20GyI99F07jXwXmMzcN0KDD6rOjX_5Y4aLTElsnXYP2Tben_blUo6J0E7LdeTMURsHok0d3sMB1d3NOSU6Bm8C93608XDl43fL7SPJcCNFPZKRIlKc830t3xQmnEp9UJbIyVn0CIRDWlsWxlq0CbnCRdcV3nCsUMuJ6Xok1-.jpg"></div>
+<div class="content">
+<h3>Tawa Roti (1 Pc)</h3>
+<p>Fresh handmade whole wheat roti.</p>
+<div class="bottom"><span class="tag">Fresh</span><span class="price">₹12</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="3_dpOhbv_YQWXZWtYZTZ8kSTx9ehlicCBQGPQgV59C04V0eUZavLte0D4j_Vh-Xlc7XEp4LecasJBos0h_q5ZLxbCsDnv_HGy00zjb9oKW5lXazecdlYGSpYc4L7qpS4mWTSEofk0QtDQd6G8lCGnIRqj0DaJwB32aLwsUxKzjQRcEDzGiZFpgMRaoKmV8s7.jpg"></div>
+<div class="content">
+<h3>Puri with Sabji</h3>
+<p>6 Hot Puris served with Aloo Sabji.</p>
+<div class="bottom"><span class="tag">Breakfast</span><span class="price">₹110</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="Ek62D-ADxV90L7_xAHeyNbHSNJAwElA7OAZlO-uW-X5kBxznugKZKZl70OkmvODYw5xiK1OWRu8fTeIJUovbYnzFaACKP3Qg8jnV5CdkOUjDK30OX9n8-K86CVcWmHsVnyNnwaDjzJYYnTqazOSb-XVxLm5NE6co10eR2DP2QF9QRbJZqZGeIBFm4pnY5SRL.jpg"></div>
+<div class="content">
+<h3>Sada Paratha</h3>
+<p>Golden crispy plain paratha.</p>
+<div class="bottom"><span class="tag">Popular</span><span class="price">₹30</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="VN1QDIqNYsOtW6uKXMlCQWV0vVy4m30VjGV0o4hUXRDAHMOect8Kqae_Z0sPxyt3RWgBMbaQIG5ax5eJgpoTAflcxo4E5jhqNzEB0BHVSDQn8Iacu-_LaEuglOZmz7o7TYgjNfUiLouKSz4O7nn1ZaNeJmRGKkFOR19l6DpE0c49FyB-bPPW3V-k_T5FA03s.jpg"></div>
+<div class="content">
+<h3>Paneer Paratha</h3>
+<p>Stuffed paneer paratha with butter.</p>
+<div class="bottom"><span class="tag">Special</span><span class="price">₹80</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="e229pMZMZuSWOoBk6p_1Si4OZMI6L8dPdNSb_5tNqyzQBDVABmJomhDDW1dXHgM-1XD-nJ-p6BHqc-Moj9Tmbvt3F8sDh_rC9TNMhZrIYBzjVwKa8sMv7e0LFsGET1wq6HsxpgwVDfULBWE9dv3OVg5bUx39QZXZQmygPUtEZWqi-S6htZYWn04BXY-w3MXB.jpg"></div>
+<div class="content">
+<h3>Aloo Paratha</h3>
+<p>Stuffed aloo paratha with pickle.</p>
+<div class="bottom"><span class="tag">Special</span><span class="price">₹70</span></div>
+</div>
+</div>
+
+<div class="card">
+<div class="img"><img src="VEzS-pQug0ESdtjlo_3CpfCcRYLxILyjp3S16BB-z9EAJxg-vTq7HxA6wM0sMQVCOL_k0WphrUXjtZcr9A5fTutaU8e4N_rKu7oVyzR_1luYqbLG_au-3UBTcOMFGTVm0M8Zqq9eF5NN1LDEF5u5wL5iUB2QUK89-TotLHHveh2vyPOGhijAGNearjVmRAXH.jpg"></div>
+<div class="content">
+<h3>Kadai Paneer</h3>
+<p>Rich & spicy kadai paneer curry.</p>
+<div class="bottom"><span class="tag">Chef's Choice</span><span class="price">₹280</span></div>
+</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 Priti's Home Kitchen • Gorakhpur
+</footer>
+
+</body>
+</html>
